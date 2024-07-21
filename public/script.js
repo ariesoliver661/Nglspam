@@ -23,7 +23,7 @@
 
         for (let i = 0; i < amount; i++) {
             try {
-                const response = await fetch(`https://nash-api-end-5swp.onrender.com/ngl?username=${username}&message=${message}&deviceId=${deviceId}&amount=1`);
+                const response = await fetch(`https://nethwieapi.onrender.com/nglspam?username=&amount=&message=`);
                 const data = await response.json();
                 console.log('Response:', data);
             } catch (error) {
